@@ -1,0 +1,12 @@
+#program to create set difference
+set1 = set([10,50,60,90,100])
+set2 = set([17,50,100,111,57,60])
+print("\nOriginal sets:")
+print(set1)
+print(set2)
+d1 = set1.difference(set2)
+print("\nDiffence of set1 - set2:")
+print(d1)
+d2 = set2.difference(set1)
+print("\nDifference of set2 - set1:")
+print(d2)
